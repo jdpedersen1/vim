@@ -41,6 +41,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:term") && b:term.isTabTree()
 "noremap :wq <C-d>:wq
 "noremap :q <C-d>:q
 
+
+
 let g:rehash256 = 1
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=0
